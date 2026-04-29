@@ -1,7 +1,13 @@
-import Counter from "./Counter.jsx";
+import Counter from "./Counter";
+import User from "./User";
 
 function App() {
-  return <Counter />;
+  return (
+    <div>
+      <Counter />
+      <User />
+    </div>
+  );
 }
 
 export default App;
